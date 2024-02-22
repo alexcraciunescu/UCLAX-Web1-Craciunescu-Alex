@@ -97,8 +97,10 @@ const Essays = () => {
             >
                 <ul>
                     <p>
-                        JQuery and React are the two most popular JavaScript
-                        libraries/frameworks used for web development.{" "}
+                        <b>
+                            JQuery and React are the two most popular JavaScript
+                            libraries/frameworks used for web development.
+                        </b>{" "}
                     </p>{" "}
                     <b>JQuery:</b> <p></p>
                     <li>
