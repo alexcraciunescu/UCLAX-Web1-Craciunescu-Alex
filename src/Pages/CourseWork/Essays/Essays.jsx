@@ -49,8 +49,11 @@ const Essays = () => {
                 <ul>
                     <p>
                         {" "}
-                        <b> Git </b> is a version control system that allows
-                        developers to track changes in their code.{" "}
+                        <b>
+                            {" "}
+                            Git is a version control system that allows
+                            developers to track changes in their code.
+                        </b>{" "}
                     </p>
                     <li>Used for version control </li>
                     <li>Installed locally on computer </li>
@@ -61,8 +64,10 @@ const Essays = () => {
                     </li>
                     <p> </p>
                     <p>
-                        <b> Github </b> is a web-based platform for Git
-                        repositories.{" "}
+                        <b>
+                            {" "}
+                            Github is a web-based platform for Git repositories.
+                        </b>{" "}
                     </p>
                     <li>Used for hosting Git repositories </li>
                     <li>Cloud-based platform built around the Git tool </li>
@@ -102,7 +107,9 @@ const Essays = () => {
                             libraries/frameworks used for web development.
                         </b>{" "}
                     </p>{" "}
-                    <b>JQuery:</b> <p></p>
+                    <p>
+                        <b>JQuery:</b>
+                    </p>
                     <li>
                         The purpose of jQuery is to make it much easier to use
                         JavaScript on your website{" "}
@@ -121,7 +128,10 @@ const Essays = () => {
                         methods, effects and animations, AJAX, utilities
                     </li>
                     <p></p>
-                    <b>React:</b> <p></p>
+                    <p>
+                        {" "}
+                        <b>React:</b>{" "}
+                    </p>
                     <li>
                         React is an open-source JavaScript library, crafted by
                         Facebook
@@ -158,13 +168,93 @@ const Essays = () => {
             <SingleEssay
                 question={`Q4: What is the difference between a Front-End and Back-End Developer?`}
             >
-                Answer 4 goes here
+                <ul>
+                    <p>
+                        <b>Front-End Developer:</b>
+                    </p>
+                    <li>
+                        {" "}
+                        Creates a smooth and engaging website that stays
+                        consistent across mobile and web apps (including
+                        different browsers){" "}
+                    </li>
+                    <li>
+                        Responsible for the client-side of web development and
+                        the user’s experience when they click on a website
+                    </li>
+                    <li>
+                        Translates website design into functional code by using
+                        HTML, CSS and JavaScript{" "}
+                    </li>
+                    <li>
+                        {" "}
+                        They are focused on designing web pages, implementing
+                        responsive layouts, optimizing performance, and ensuring
+                        cross-browser compatibility
+                    </li>
+                    <li>
+                        They conduct usability and quality testing to fix any
+                        bugs and use design programs to lay out a prototype for
+                        the website
+                    </li>
+                    <li>
+                        Work alongside designers, back-end developers and
+                        quality assurance analysts
+                    </li>
+                    <li>
+                        Typically have a strong understanding of HTML, CSS,
+                        JavaScript, Node.js, AJAX, Design frameworks, Libraries
+                        (ex. AngularJS, jQuery, React), API’s
+                    </li>
+                    <p>
+                        <p></p>
+                        <b>Back-End Developer:</b>
+                    </p>
+                    <li>
+                        Creates the structure that allows the website to
+                        function as needed
+                    </li>
+                    <li>
+                        Makes sure all the components work together behind the
+                        scenes including handling architecture, back-end logic,
+                        data storage and security
+                    </li>
+                    <li>
+                        They deal with server-side logic, databases and server
+                        configurations
+                    </li>
+                    <li>
+                        Their tasks include designing and developing API’s,
+                        managing databases, handling user authentication, and
+                        ensuring server security and scalability
+                    </li>
+                    <li>
+                        Troubleshoot issues and resolve them, while
+                        communicating them to important stakeholders
+                    </li>
+                    <li>
+                        Create and oversee testing schedules to optimize user
+                        interface and experience, ensuring optimal display on
+                        various browsers and devices
+                    </li>
+                    <li>
+                        Typically work with languages such as Python, Ruby,
+                        Java, PHP, SQL or JavaScript
+                    </li>
+                </ul>
             </SingleEssay>
-            <SingleEssay question={`Q5: Sample question...`}>
+            <SingleEssay
+                question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
+            >
                 Answer 5 goes here
             </SingleEssay>
-            <SingleEssay question={`Q6: Sample question...`}>
+            <SingleEssay
+                question={`Q6: What is the difference between jpg, gif, png and svg images?`}
+            >
                 Answer 6 goes here
+            </SingleEssay>
+            <SingleEssay question={`Q7: Sample question...`}>
+                Answer 7 goes here
             </SingleEssay>
         </EssaysStyled>
     );
