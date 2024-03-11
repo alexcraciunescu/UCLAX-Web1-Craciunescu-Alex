@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 // Scripts
-import "./scripts/index.js";
+// import "./scripts/index.js";
 
 // React Components
 import ReactComponent from "./ReactComponent";
