@@ -17,6 +17,7 @@
         "json-server": "^1.0.0-alpha.23",
         "prop-types": "^15.8.1",
         "react": "^18.2.0",
+        "react-calendar": "^4.8.0",
         "react-dom": "^18.2.0",
         "react-responsive-carousel": "^3.2.23",
         "react-router-dom": "^6.21.3",
