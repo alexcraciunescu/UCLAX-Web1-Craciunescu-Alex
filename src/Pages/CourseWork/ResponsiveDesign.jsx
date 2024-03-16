@@ -7,7 +7,7 @@ const ResponsiveDesign = () => {
 
     return (
         <ResponsiveDesignStyled>
-            <h2>ResponsiveDesign</h2>
+            <h2>Responsive Design</h2>
 
             <div className="boxes">
                 {isMediumAndUp && <div className="box box1">1</div>}

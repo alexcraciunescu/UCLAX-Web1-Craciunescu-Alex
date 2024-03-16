@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 import axios from "axios";
-import Calendar from "./Calendar";
 
 // components
 import Inset from "@/Common/PagesLayout/Inset.jsx";
 import SubmissionList from "./SubmissionList";
 import Form from "./Form";
+import Calendar from "./Calendar";
 
 const Contact = () => {
     const [submissions, setSubmissions] = useState([]);
@@ -23,8 +23,8 @@ const Contact = () => {
     return (
         <ContactStyled>
             <Inset>
-                <Calendar />
                 <h1>Contact</h1>
+                <Calendar />
                 <Form getSubmissions={getSubmissions} />
                 <SubmissionList submissions={submissions} />
             </Inset>

@@ -44,12 +44,12 @@ const MediumLargeStyled = styled.div`
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #84d4d4;
+            border-bottom: solid 3px #3d3b3a;
 
             text-align: center;
             font-size: 12px;
             opacity: 0.8;
-            color: #84d4d4;
+            color: #3d3b3a;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;

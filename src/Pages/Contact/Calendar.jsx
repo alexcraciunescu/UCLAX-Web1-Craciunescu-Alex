@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Calendar from "react-calendar";
+import styled from "styled-components";
 import "react-calendar/dist/Calendar.css";
 
 function MyCalendar() {
@@ -10,11 +11,18 @@ function MyCalendar() {
     };
 
     return (
-        <div>
-            <h1>Calendar</h1>
+        <CalendarStyled>
+            <h2>Calendar</h2>
             <Calendar onChange={onChange} value={date} />
-        </div>
+        </CalendarStyled>
     );
 }
 
 export default MyCalendar;
+
+const CalendarStyled = styled.div`
+    margin: 30px 0px;
+
+    h2 {
+    }
+`;
