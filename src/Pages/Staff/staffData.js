@@ -1,125 +1,65 @@
-import image1 from "./img/Alex-Esqueda.jpg";
-import image2 from "./img/Silvie-Esqueda.jpg";
-import image3 from "./img/Kara-Smith.jpg";
-import image4 from "./img/Brook.jpg";
-import image5 from "./img/Amber-Dyett.jpg";
-import image6 from "./img/Dr-Skyler-Harms.jpg";
-import image7 from "./img/Elisa-Eastwood.jpg";
-import image8 from "./img/Jaque-Ong.jpg";
-import image9 from "./img/John-Giron.jpg";
-import image10 from "./img/Karlie-Goretski.jpg";
-import image11 from "./img/Shana-Millspaugh.jpg";
+import image1 from "./img/Snackbooks.png";
+import image2 from "./img/FIXR.png";
+import image3 from "./img/Innodrive.png";
+import image4 from "./img/DSC.png";
+import image5 from "./img/ThePost.png";
+import image6 from "./img/Headspace.png";
 
 export const staffData = [
     {
         id: 1,
         image: image1,
-        name: "Alex Esqueda",
-        yearStarted: 2013,
+        name: "Snackbooks",
+        yearStarted: 2023,
         accolades: [
-            "Co-Owner, PageMeta Coach ",
-            "Program Designer CrossFit Decimate ",
-            "Decimate Performance Training ",
-            "CCFT/L-3 Certified CrossFit Trainer",
+            "I undertook the design of the settings view for a book recommendation app tailored specifically for food enthusiasts, commonly known as Foodies. The settings view plays a pivotal role in enhancing user experience by providing customization options and personalization features. Through meticulous attention to detail and user-centered design principles, I crafted an intuitive and visually appealing settings interface that aligns seamlessly with the app's overarching theme of culinary exploration.            ",
+
+            ,
         ],
     },
     {
         id: 2,
         image: image2,
-        name: "Silvie Esqueda",
-        yearStarted: 2013,
+        name: "FIXR",
+        yearStarted: 2023,
         accolades: [
-            "Co-Owner & Coach",
-            "CF-L2",
-            "USAW L-1",
-            "Precision Nutrition L-1",
+            "In this project, my team and I spearheaded the design and development of a mobile application tailored specifically for maintenance workers tasked with servicing an apartment complex. The primary focus of the app was to provide a centralized platform where maintenance workers could access pertinent information, manage work orders, communicate effectively with residents and management while integrating rewards and achievements to make their work meaningful.",
         ],
     },
     {
         id: 3,
         image: image3,
-        name: "Kara Smith",
-        yearStarted: 2012,
+        name: "Innodrive",
+        yearStarted: 2023,
         accolades: [
-            "Lead Coach & Operations Assistant   ",
-            "​CF-L2 Trainer",
-            "ATA Certified: Adaptive & Inclusive Trainer",
-            "The Phoenix (Volunteer)",
+            "My team and I reimagined the car buying process by enhancing the user experience and streamlining the journey from research to purchase. Recognizing the complexities and pain points inherent in traditional car buying, our goal was to simplify the car discovery process, enhance transparency and trust through clear pricing information, streamline the financing and negotiation process, and provide personalized recommendations and assistance to guide users through their car buying journey. ",
         ],
     },
     {
         id: 4,
         image: image4,
-        name: "Brook",
-        yearStarted: 2019,
+        name: "Dollar Shave Club",
+        yearStarted: 2023,
         accolades: [
-            "Coach: Group Classes & Fundementals",
-            "CF-L2 , Trainer",
-            "ISSA Personal Trainer ",
-            "Nutrition Coach",
+            "For this project, I redesigned a section of the Dollar Shave Club website by including customer reviews for each product and subscription with the goal of increasing customer engagement with Dollar Shave Club members. By incorporating a designated comments section to the Dollar Shave Club website, the goal here was to encourage customer engagement, provide feedback and user insights, authentically gain trust in the brand, foster community building, highlight customer satisfaction and encourage repeat business.",
         ],
     },
     {
         id: 5,
         image: image5,
-        name: "Amber Dyett",
-        yearStarted: 2016,
-        accolades: ["Coach", "CF-L2", "PN-1", "BIRTHFIT Certified"],
+        name: "The Post",
+        yearStarted: 2023,
+        accolades: [
+            "The design challenge for this project was to attract younger audiences to engage, trust and subscribe to The Washington Post (otherwise known as The Post). My solution was to incorporate short videos on The Washington Post’s website to enrich user experience and drive engagement. Recognizing the growing demand for multimedia content, this solution would be implemented  successfully by creating a dedicated video section on the home page, providing curated short video playlists, recommending personalized short video compilations, and embracing engagement through the comments sections.",
+        ],
     },
     {
         id: 6,
         image: image6,
-        name: "Dr Skyler Harms",
-        yearStarted: 2010,
+        name: "Headspace",
+        yearStarted: 2023,
         accolades: [
-            "Physical Therapist",
-            "Doctor of Physical Therapy",
-            "Titleist Performance Institute Certified",
-            "Dry Needling Level 2",
+            "The goal of this project was to enhance user engagement and overall effectiveness of meditation and mindfulness within the app by adding customization features. When it comes to meditation and mindfulness, there isn’t a one size fits all solution for users. Therefore, I developed and incorporated advanced personalization elements within the app to enhance customer satisfaction. My proposed design solution included a “Quick Select” feature to quickly select a meditation or exercise that fits the users personal need at any given moment, as well as, a “Shuffle” option that would leverage existing user data from within the app (favorites and recently listened to).",
         ],
-    },
-    {
-        id: 7,
-        image: image7,
-        name: "Elisa Eastwood",
-        yearStarted: 2014,
-        accolades: [
-            "Coach: Group Classes & Fundamentals",
-            "​CF-L1",
-            "2018 CF Regional Competitor",
-        ],
-    },
-    {
-        id: 8,
-        image: image8,
-        name: "Jaque Ong",
-        yearStarted: 2012,
-        accolades: [
-            "PageMeta Olympic Lifting Coach",
-            "U.S.A.W",
-            "IKKF Instructor",
-            "Sports & Performance Cert Trainer",
-        ],
-    },
-    {
-        id: 9,
-        image: image9,
-        name: "John Giron",
-        yearStarted: 2010,
-        accolades: ["Coach: Group Classes & Fundamentals", "CF-L1"],
-    },
-    {
-        id: 10,
-        image: image10,
-        name: "Karlie Goretski",
-        yearStarted: 2015,
-        accolades: ["Coach: Kids CF", "CF-L1"],
-    },
-    {
-        id: 11,
-        image: image11,
-        name: "Shana Millspaugh",
-        yearStarted: 2013,
-        accolades: ["Coach", "CF-L1", "USAW L-1"],
     },
 ];
