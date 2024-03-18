@@ -8,7 +8,7 @@ const Staff = () => {
     return (
         <StaffStyled>
             <Inset>
-                <h1>Portfolio</h1>
+                <h1>Portfolio 1</h1>
                 <StaffList />
             </Inset>
         </StaffStyled>
